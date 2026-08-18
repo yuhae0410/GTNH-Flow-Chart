@@ -28,15 +28,17 @@
   "bundle": {
     "active": true,
     "targets": [
-      "nsis",
-      "msi"
+      "nsis"
     ],
     "createUpdaterArtifacts": true,
     "windows": {
       "nsis": {
         "installMode": "currentUser"
       }
-    }
+    },
+    "icon": [
+      "icons/icon.ico"
+    ]
   },
   "plugins": {
     "updater": {
